@@ -1,0 +1,15 @@
+Clase : 
+Employee 
+
+Administrative
+Projectmanager
+BasicEmployee
+
+FinancialBalance
+
+Payment
+Salary
+Bonus
+
+
+Functii :
