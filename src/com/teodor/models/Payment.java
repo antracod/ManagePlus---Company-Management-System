@@ -8,7 +8,7 @@ public class Payment {
     protected String paymentDate;
     protected String paymentReceiver;
 
-    Payment(){}
+    public Payment(){}
     public Payment(int paymentValue)
     {
         this.paymentValue = paymentValue;

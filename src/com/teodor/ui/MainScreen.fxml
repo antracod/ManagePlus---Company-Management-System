@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
-<?import com.jfoenix.controls.JFXSpinner?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
@@ -52,6 +56,47 @@
          </children>
       </AnchorPane>
       <JFXButton layoutX="793.0" layoutY="14.0" prefHeight="44.0" prefWidth="209.0" text="Loading data..." textFill="ROYALBLUE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="223.0" layoutY="94.0" prefHeight="51.0" prefWidth="289.0" style="-fx-background-color: #4169e1;" text="Add Transaction" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="223.0" layoutY="175.0" prefHeight="51.0" prefWidth="289.0" style="-fx-background-color: #4169e1;" text="Remove Transaction" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="223.0" layoutY="255.0" prefHeight="51.0" prefWidth="289.0" style="-fx-background-color: #4169e1;" text="Update Transaction" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="223.0" layoutY="331.0" prefHeight="51.0" prefWidth="289.0" style="-fx-background-color: #4169e1;" text="Import Transaction" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <TableView layoutX="223.0" layoutY="413.0" prefHeight="150.0" prefWidth="289.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Id" />
+          <TableColumn prefWidth="67.0" text="Name" />
+            <TableColumn prefWidth="58.0" text="Value" />
+            <TableColumn prefWidth="88.0" text="Date" />
+        </columns>
+      </TableView>
+      <LineChart layoutX="564.0" layoutY="195.0" prefHeight="368.0" prefWidth="398.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <JFXButton layoutX="618.0" layoutY="145.0" prefHeight="44.0" prefWidth="332.0" text="Balance Evolution" textFill="ROYALBLUE">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>

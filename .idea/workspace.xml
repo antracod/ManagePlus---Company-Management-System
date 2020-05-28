@@ -20,9 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="546fe620-3fbd-4679-ac08-ce6549dbd307" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/teodor/tests/ClassService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/teodor/tests/ClassTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Financial.db" beforeDir="false" afterPath="$PROJECT_DIR$/Financial.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/repositories/FinancialRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/repositories/FinancialRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/teodor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teodor/models/Administrative.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teodor/models/BasicEmployee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teodor/models/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/models/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teodor/models/Projectmanager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teodor/models/Rule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/models/Rule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teodor/repositories/AnnouncementRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/repositories/AnnouncementRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teodor/repositories/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/repositories/EmployeeRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/teodor/repositories/FinancialRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/repositories/FinancialRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teodor/repositories/RuleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/repositories/RuleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teodor/services/AnnouncementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/services/AnnouncementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teodor/services/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/services/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teodor/services/FinancialService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/services/FinancialService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teodor/services/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/services/IService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teodor/services/RuleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/services/RuleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teodor/tests/ClassServiceTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teodor/ui/MainScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/ui/MainScreen.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +131,8 @@
       <workItem from="1590678871520" duration="10000" />
       <workItem from="1590679601672" duration="6286000" />
       <workItem from="1590686816325" duration="737000" />
-      <workItem from="1590694220716" duration="4076000" />
+      <workItem from="1590694220716" duration="6221000" />
+      <workItem from="1590704530474" duration="4491000" />
     </task>
     <servers />
   </component>
@@ -138,10 +159,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590636644230" />
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1590696608075">
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1590709232676">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590696608075" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590709232676" />
+    <state x="743" y="414" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1590709156379">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="743" y="414" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590709156379" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590634329517">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -151,22 +176,22 @@
     </state>
     <state x="-1233" y="333" key="FileChooserDialogImpl/0.0.1920.1040/-1920.1.1920.1040@-1920.1.1920.1040" timestamp="1590585160856" />
     <state x="687" y="332" key="FileChooserDialogImpl/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590634381861" />
-    <state width="1860" height="216" key="GridCell.Tab.0.bottom" timestamp="1590696757114">
+    <state width="1860" height="213" key="GridCell.Tab.0.bottom" timestamp="1590709837225">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590696757114" />
-    <state width="1860" height="216" key="GridCell.Tab.0.center" timestamp="1590696757114">
+    <state width="1860" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590709837225" />
+    <state width="1860" height="213" key="GridCell.Tab.0.center" timestamp="1590709837225">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="216" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590696757114" />
-    <state width="1860" height="216" key="GridCell.Tab.0.left" timestamp="1590696757114">
+    <state width="1860" height="213" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590709837225" />
+    <state width="1860" height="213" key="GridCell.Tab.0.left" timestamp="1590709837224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="216" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590696757114" />
-    <state width="1860" height="216" key="GridCell.Tab.0.right" timestamp="1590696757114">
+    <state width="1860" height="213" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590709837224" />
+    <state width="1860" height="213" key="GridCell.Tab.0.right" timestamp="1590709837225">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="216" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590696757114" />
+    <state width="1860" height="213" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590709837225" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1590634385019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

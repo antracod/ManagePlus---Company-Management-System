@@ -2,7 +2,7 @@ package com.teodor.models;
 
 import com.teodor.csvhelper.CsvFileSerializable;
 
-public class Rule implements CsvFileSerializable {
+public class Rule implements CsvFileSerializable,Comparable<Rule> {
     private int RuleId;
     private String RuleText;
 
@@ -55,4 +55,8 @@ public class Rule implements CsvFileSerializable {
         return new String[0];
     }
 
+    @Override
+    public int compareTo(Rule o) {
+        return this.RuleText.compareTo(o.getRuleText());
+    }
 }

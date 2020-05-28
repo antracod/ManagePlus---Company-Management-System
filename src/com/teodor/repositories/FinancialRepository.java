@@ -87,12 +87,11 @@ public class FinancialRepository implements IRepository {
     @Override
     public void updateEntry(Object entry) {
         String insertCompanySql =
-                "UPDATE FinancialBalance SET" +
-                        "TransactionID = " + ((Payment)entry).getPaymentID() + "','" +
-                        "TransactionReceiver,"  + ((Payment)entry).getPaymentReceiver() + "','" +
-                        "TransactionValue, "  + ((Payment)entry).getPaymentValue() + "','" +
-                        "PaymentDate) "  + ((Payment)entry).getPaymentDate() + "','" +
-                        "WHERE TransactionID = "  + ((Payment)entry).getPaymentID() ;
+                "update FinancialBalance set TransactionID='"+ ((Payment)entry).getPaymentID()
+                        +"' , TransactionReceiver='"+ ((Payment)entry).getPaymentReceiver()
+                        + "', TransactionValue='"+ ((Payment)entry).getPaymentValue()
+                        +"', PaymentDate='"+ ((Payment)entry).getPaymentDate()
+                        +"' WHERE TransactionID='"+ ((Payment)entry).getPaymentID() +"'  ";
 
 
         try (Statement stmt = financialDBConnection.createStatement()) {
