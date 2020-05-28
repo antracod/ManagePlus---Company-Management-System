@@ -1,8 +1,8 @@
 package com.teodor.csvhelper;
 
 public interface CsvFileSerializable {
-    String[] getColumnNames();
-    String[] setStringList();
-    void updateStringsList(String[] input);
-    String[] processStringList();
+     String[] getColumnNames();
+     String[] convertToStringList();
+     void convertFromStringsList(String[] input);
+     String[] processStringList();
 }

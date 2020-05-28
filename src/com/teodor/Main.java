@@ -3,14 +3,16 @@ package com.teodor;
 import com.teodor.models.BonusPayment;
 import com.teodor.models.FinancialBalance;
 import com.teodor.models.Payment;
+import com.teodor.tests.CsvTests;
 
+import java.io.IOException;
 import java.sql.SQLException;
 import java.util.Vector;
 
 public class Main {
 
     public static void main(String[] args) {
-        FinancialBalance x = new FinancialBalance();
+        /*FinancialBalance x = new FinancialBalance();
         Payment y = new Payment(2, "20.10.2020");
         Payment z = new Payment(3, "Teodor" , 100, "12.12.2020");
         BonusPayment zz = new BonusPayment();
@@ -24,6 +26,13 @@ public class Main {
            // myDatabase.addTransaction(z);
         }catch(SQLException e)
         {
+
+        }
+        */
+        try{
+            CsvTests csvTests = new CsvTests();
+            csvTests.startCsvTesting();
+        }catch(IOException e){
 
         }
 
