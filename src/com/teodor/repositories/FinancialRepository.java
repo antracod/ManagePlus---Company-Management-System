@@ -89,9 +89,9 @@ public class FinancialRepository implements IRepository {
         String insertCompanySql =
                 "UPDATE FinancialBalance SET" +
                         "TransactionID = " + ((Payment)entry).getPaymentID() + "','" +
-                        "TransactionReceiver," +
-                        "TransactionValue, " +
-                        "PaymentDate) " +
+                        "TransactionReceiver,"  + ((Payment)entry).getPaymentReceiver() + "','" +
+                        "TransactionValue, "  + ((Payment)entry).getPaymentValue() + "','" +
+                        "PaymentDate) "  + ((Payment)entry).getPaymentDate() + "','" +
                         "WHERE TransactionID = "  + ((Payment)entry).getPaymentID() ;
 
 

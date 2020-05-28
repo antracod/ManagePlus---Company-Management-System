@@ -1,5 +1,5 @@
 package com.teodor;
-
+///Radu Teodor-George
 import com.teodor.models.BonusPayment;
 import com.teodor.models.FinancialBalance;
 import com.teodor.models.Payment;
@@ -40,7 +40,8 @@ public class Main {
 
         }
 
-        Payment p = new Payment(3, "Tarfa de Ma-ta" , 1000, "12.12.2020");
+        Payment p = new Payment(3, "Test Test" , 1000, "12.12.2020");
+    
         try{
             FinancialRepository financialDB = new FinancialRepository();
             financialDB.addEntry(p);
