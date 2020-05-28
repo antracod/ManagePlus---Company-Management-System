@@ -6,9 +6,7 @@ import com.teodor.models.Employee;
 import com.teodor.models.ProjectTask;
 import com.teodor.models.Rule;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 
 public class CsvTests {
 
@@ -16,6 +14,8 @@ public class CsvTests {
 
     public static void startCsvTesting() throws IOException
     {
+
+
         try{
 
             BufferedWriter AnnouncementWriter = new BufferedWriter(new FileWriter("Announcements.csv"));
@@ -26,7 +26,7 @@ public class CsvTests {
 
             BufferedWriter RuleWriter = new BufferedWriter(new FileWriter("Rules.csv"));
             CsvService<Rule> RuleCsv = new CsvService ( new Rule(), RuleWriter);
-            Rule testRule = new Rule(1,"Nu folositi allowmainthreadqueries");
+            Rule testRule = new Rule(1,"Nu foloseste allowmainthreadqueries");
             RuleCsv.writeObject(testRule);
             RuleWriter.flush();
 
@@ -41,6 +41,24 @@ public class CsvTests {
             Employee testEmployee = new Employee("Radu","Teodor-George");
             EmployeeCsv.writeObject(testEmployee);
             EmployeeWriter.flush();
+
+        }catch(IOException e)
+        {
+
+        }
+
+        try{
+
+                BufferedReader announcementReader = new BufferedReader(new FileReader("Announcements.csv"));
+                CsvService<Announcement> companyCsv = new CsvService(new Announcement(), announcementReader);
+                Announcement announcement = new Announcement();
+                companyCsv.readObject(announcement);
+                System.out.println(announcement.getAnnouncementText());
+
+                /* LA FEL SI PENTRU CLASELE RULE PROJECT,  TASK SI EMPLOYEE WRITER  */
+
+
+
 
         }catch(IOException e)
         {

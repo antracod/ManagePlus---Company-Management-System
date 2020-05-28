@@ -4,6 +4,8 @@ import com.teodor.models.BonusPayment;
 import com.teodor.models.FinancialBalance;
 import com.teodor.models.Payment;
 import com.teodor.tests.CsvTests;
+import com.teodor.ui.MainScreen;
+import javafx.application.Application;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -36,8 +38,8 @@ public class Main {
 
         }
 
-
-
-
+        new Thread(() -> Application.launch(MainScreen.class)).start();
+        MainScreen startUpTest = MainScreen.waitForMainScreen();
+        startUpTest.printSomething();
     }
 }

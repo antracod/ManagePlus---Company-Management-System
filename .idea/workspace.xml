@@ -20,28 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="546fe620-3fbd-4679-ac08-ce6549dbd307" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/teodor/models/Rule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/teodor/repositories/AnnouncementRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/teodor/repositories/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/teodor/repositories/RuleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/teodor/services/AnnouncementService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/teodor/services/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/teodor/services/RuleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/teodor/libs/jfoenix-9.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/teodor/ui/MainScreen.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/teodor/ui/MainScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/teodor/ui/TableScreen.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/teodor/ui/TableScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/teodor/ui/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Announcements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Announcements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/csvhelper/Auditor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/models/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/models/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/models/Payment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/models/Payment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/models/ProjectTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/models/ProjectTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/services/FinancialRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/services/IRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManagePlus---Company-Management-System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ManagePlus---Company-Management-System.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rules.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Rules.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/META-INF/ManagePlus---Company-Management-System.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/tests/CsvTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/tests/CsvTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teodor/csvhelper/Auditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/csvhelper/CsvAuditor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teodor/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/models/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teodor/models/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/models/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teodor/models/ProjectTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/models/ProjectTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teodor/services/FinancialRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/repositories/FinancialRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teodor/services/IRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/repositories/IRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teodor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/teodor/tests/CsvTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/tests/CsvTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +46,8 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -61,15 +55,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cScBK2YKojS1DlyStc4KKjZ6MZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/teodor/libs/sqlite-jdbc-3.30.1.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/teodor/libs/jfoenix-9.0.8.jar!/" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -77,7 +75,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Teodor\Desktop\ManagePlus---Company-Management-System\src\com\teodor\libs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Teodor\Desktop\ManagePlus---Company-Management-System\src\com\teodor\ui" />
       <recent name="C:\Users\Teodor\Desktop\ManagePlus---Company-Management-System\src\com\teodor\libs" />
     </key>
   </component>
@@ -85,7 +87,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.teodor.Main" />
       <module name="ManagePlus---Company-Management-System" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="--module-path C:\javafx-sdk-11.0.2\lib --add-modules javafx.controls,javafx.fxml --add-exports javafx.graphics/com.sun.javafx.sg.prism=ALL-UNNAMED" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -113,6 +115,11 @@
       <workItem from="1590584919172" duration="8002000" />
       <workItem from="1590609615051" duration="390000" />
       <workItem from="1590612856311" duration="12249000" />
+      <workItem from="1590633171089" duration="6000" />
+      <workItem from="1590633190997" duration="3574000" />
+      <workItem from="1590657016844" duration="121000" />
+      <workItem from="1590658504492" duration="419000" />
+      <workItem from="1590676786121" duration="647000" />
     </task>
     <servers />
   </component>
@@ -131,44 +138,59 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590636644230">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590636644230" />
     <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1590622827777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590622827777" />
-    <state x="687" y="332" key="FileChooserDialogImpl" timestamp="1590586470192">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590634329517">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590634329517" />
+    <state x="687" y="332" key="FileChooserDialogImpl" timestamp="1590634381861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1233" y="333" key="FileChooserDialogImpl/0.0.1920.1040/-1920.1.1920.1040@-1920.1.1920.1040" timestamp="1590585160856" />
-    <state x="687" y="332" key="FileChooserDialogImpl/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590586470192" />
-    <state width="1877" height="231" key="GridCell.Tab.0.bottom" timestamp="1590630444294">
+    <state x="687" y="332" key="FileChooserDialogImpl/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590634381861" />
+    <state width="1877" height="96" key="GridCell.Tab.0.bottom" timestamp="1590657137449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590630444294" />
-    <state width="1877" height="231" key="GridCell.Tab.0.center" timestamp="1590630444293">
+    <state width="1877" height="96" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590657137449" />
+    <state width="1877" height="96" key="GridCell.Tab.0.center" timestamp="1590657137449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590630444293" />
-    <state width="1877" height="231" key="GridCell.Tab.0.left" timestamp="1590630444293">
+    <state width="1877" height="96" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590657137449" />
+    <state width="1877" height="96" key="GridCell.Tab.0.left" timestamp="1590657137449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590630444293" />
-    <state width="1877" height="231" key="GridCell.Tab.0.right" timestamp="1590630444293">
+    <state width="1877" height="96" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590657137449" />
+    <state width="1877" height="96" key="GridCell.Tab.0.right" timestamp="1590657137449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590630444293" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1590586477242">
+    <state width="1877" height="96" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590657137449" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1590634385019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1459" y="166" key="SettingsEditor/0.0.1920.1040/-1920.1.1920.1040@-1920.1.1920.1040" timestamp="1590585229133" />
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590586477242" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590634385019" />
+    <state x="342" y="140" key="new project wizard" timestamp="1590633215787">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590633215787" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1590592388637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590592388637" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590618786899">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590635103872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590618786899" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590635103872" />
   </component>
 </project>
