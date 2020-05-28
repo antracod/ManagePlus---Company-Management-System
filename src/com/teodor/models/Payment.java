@@ -1,5 +1,7 @@
 package com.teodor.models;
 
+import com.teodor.csvhelper.CsvFileSerializable;
+
 public class Payment {
     protected int paymentID;
     protected int paymentValue;

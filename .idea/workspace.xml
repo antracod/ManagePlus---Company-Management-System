@@ -20,15 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="546fe620-3fbd-4679-ac08-ce6549dbd307" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/teodor/models/Rule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/teodor/repositories/AnnouncementRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/teodor/repositories/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/teodor/repositories/RuleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/teodor/services/AnnouncementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/teodor/services/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/teodor/services/RuleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Announcements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Announcements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/services/IRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/services/IRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/csvhelper/Auditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/models/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/models/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/models/Payment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/models/Payment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/models/ProjectTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/models/ProjectTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/services/FinancialRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/services/IRepository.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/tests/CsvTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/tests/CsvTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teodor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teodor/csvhelper/CsvFileSerializable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/csvhelper/CsvFileSerializable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teodor/csvhelper/CsvService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/csvhelper/CsvService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teodor/models/Announcement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/models/Announcement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teodor/csvhelper/Auditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/csvhelper/CsvAuditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teodor/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/models/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teodor/models/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/models/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teodor/models/ProjectTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/models/ProjectTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teodor/services/FinancialRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/repositories/FinancialRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teodor/services/IRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/repositories/IRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/teodor/tests/CsvTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/tests/CsvTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,22 +141,22 @@
     </state>
     <state x="-1233" y="333" key="FileChooserDialogImpl/0.0.1920.1040/-1920.1.1920.1040@-1920.1.1920.1040" timestamp="1590585160856" />
     <state x="687" y="332" key="FileChooserDialogImpl/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590586470192" />
-    <state width="1877" height="231" key="GridCell.Tab.0.bottom" timestamp="1590629088606">
+    <state width="1877" height="231" key="GridCell.Tab.0.bottom" timestamp="1590630444294">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590629088606" />
-    <state width="1877" height="231" key="GridCell.Tab.0.center" timestamp="1590629088605">
+    <state width="1877" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590630444294" />
+    <state width="1877" height="231" key="GridCell.Tab.0.center" timestamp="1590630444293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590629088605" />
-    <state width="1877" height="231" key="GridCell.Tab.0.left" timestamp="1590629088605">
+    <state width="1877" height="231" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590630444293" />
+    <state width="1877" height="231" key="GridCell.Tab.0.left" timestamp="1590630444293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590629088605" />
-    <state width="1877" height="231" key="GridCell.Tab.0.right" timestamp="1590629088606">
+    <state width="1877" height="231" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590630444293" />
+    <state width="1877" height="231" key="GridCell.Tab.0.right" timestamp="1590630444293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590629088606" />
+    <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590630444293" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1590586477242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

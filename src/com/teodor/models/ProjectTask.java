@@ -1,12 +1,14 @@
 package com.teodor.models;
 
-public class ProjectTask {
+import com.teodor.csvhelper.CsvFileSerializable;
+
+public class ProjectTask implements CsvFileSerializable {
 
     private int ProjectTaskId;
     private String ProjectTaskText;
 
-    ProjectTask(){}
-    ProjectTask(int ProjectTaskId,String ProjectTaskText)
+    public ProjectTask(){}
+    public ProjectTask(int ProjectTaskId,String ProjectTaskText)
     {
         this.ProjectTaskId = ProjectTaskId;
         this.ProjectTaskText = ProjectTaskText;
@@ -30,6 +32,28 @@ public class ProjectTask {
     public void setProjectTaskText(String ProjectTaskText)
     {
         this.ProjectTaskText = ProjectTaskText;
+    }
+
+    @Override
+    public String[] getColumnNames() {
+        return new String[]{"AnnouncementId","AnnouncementText"};
+    }
+
+    @Override
+    public String[] convertToStringList() {
+        return new String[]{ Integer.toString(ProjectTaskId) , ProjectTaskText };
+    }
+
+    @Override
+    public void convertFromStringsList(String[] input) {
+        ProjectTaskId = Integer.parseInt(input[0]);
+        ProjectTaskText = input[1];
+    }
+
+    //Not impl
+    @Override
+    public String[] processStringList() {
+        return new String[0];
     }
 
 }

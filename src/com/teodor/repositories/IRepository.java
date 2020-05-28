@@ -1,4 +1,4 @@
-package com.teodor.services;
+package com.teodor.repositories;
 
 import com.teodor.models.Payment;
 
