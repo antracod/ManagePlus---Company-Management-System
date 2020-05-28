@@ -2,14 +2,13 @@ package com.teodor.repositories;
 
 import com.teodor.models.Payment;
 
+import java.util.Collection;
 import java.util.List;
 
 public interface IRepository<T> {
-    T getById(int id);
-    T getByValue(int value);
-    List<T> getAll();
 
     void addEntry(T entry);
-    void deleteEntry(T entry);
+    Collection<T> getEntry();
+    void deleteEntry(int id);
     void updateEntry(T entry);
 }

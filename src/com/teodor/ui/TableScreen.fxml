@@ -1,14 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXSpinner?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.teodor.ui.TableScreen"
-            prefHeight="400.0" prefWidth="600.0">
+<AnchorPane prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.teodor.ui.TableController">
+   <children>
+      <JFXButton layoutX="66.0" layoutY="53.0" prefHeight="312.0" prefWidth="668.0" style="-fx-background-color: #4169e1;" text="a" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </JFXButton>
+      <TableView fx:id="paymentTableView" layoutX="105.0" layoutY="116.0" prefHeight="212.0" prefWidth="327.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="37.0" text="Id" />
+          <TableColumn fx:id="ReceiverColumn" prefWidth="169.0" text="Receiver" />
+            <TableColumn fx:id="ValueColumn" prefWidth="39.0" text="Value" />
+            <TableColumn fx:id="DateColumn" text="Date" />
+        </columns>
+      </TableView>
+      <JFXButton layoutX="86.0" layoutY="65.0" prefHeight="25.0" prefWidth="629.0" text="Payment Table" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="491.0" layoutY="116.0" prefHeight="38.0" prefWidth="209.0" style="-fx-background-color: #ffffff;" text="Add Entry" textFill="ROYALBLUE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="491.0" layoutY="203.0" prefHeight="38.0" prefWidth="209.0" style="-fx-background-color: #ffffff;" text="Custom Query" textFill="ROYALBLUE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="491.0" layoutY="290.0" prefHeight="38.0" prefWidth="209.0" style="-fx-background-color: #ffffff;" text="Import" textFill="ROYALBLUE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
 
+      <JFXButton layoutX="217.0" layoutY="484.0" prefHeight="38.0" prefWidth="483.0" style="-fx-background-color: #4169e1;" text="Loading server data" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+
+
+
+  
+   </children>
 </AnchorPane>

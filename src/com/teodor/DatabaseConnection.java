@@ -30,7 +30,7 @@ public class DatabaseConnection {
         }
     }
 
-    public void addTransaction(Payment payment) {
+    public void addPayment(Payment payment) {
         String insertCompanySql =
                 "INSERT INTO FinancialBalance " +
                         "( TransactionReceiver, TransactionValue, PaymentDate) " +
