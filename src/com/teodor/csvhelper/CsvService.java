@@ -1,4 +1,5 @@
 package com.teodor.csvhelper;
 
-public class CsvService {
+public class CsvService<T extends CsvFileSerializable> {
+
 }

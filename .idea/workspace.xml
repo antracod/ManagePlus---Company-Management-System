@@ -20,22 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="546fe620-3fbd-4679-ac08-ce6549dbd307" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/teodor/DatabaseConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/teodor/ServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/teodor/csvhelper/Auditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/teodor/libs/sqlite-jdbc-3.30.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/teodor/models/Administrative.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/teodor/models/BasicEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/teodor/models/BonusPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/teodor/models/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/teodor/models/FinancialBalance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/teodor/models/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/teodor/models/Projectmanager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/teodor/models/Salary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/teodor/services/IRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/teodor/csvhelper/CsvFileSerializable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/teodor/csvhelper/CsvService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/teodor/models/Announcement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/teodor/models/ProjectTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/teodor/services/FinancialRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/teodor/services/FinancialService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/teodor/services/IService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManagePlus---Company-Management-System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ManagePlus---Company-Management-System.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teodor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teodor/services/IRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/services/IRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,6 +53,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/teodor/libs/sqlite-jdbc-3.30.1.jar!/" />
@@ -104,7 +99,7 @@
       <workItem from="1590530995970" duration="4023000" />
       <workItem from="1590584919172" duration="8002000" />
       <workItem from="1590609615051" duration="390000" />
-      <workItem from="1590612856311" duration="2906000" />
+      <workItem from="1590612856311" duration="7324000" />
     </task>
     <servers />
   </component>
@@ -129,22 +124,22 @@
     </state>
     <state x="-1233" y="333" key="FileChooserDialogImpl/0.0.1920.1040/-1920.1.1920.1040@-1920.1.1920.1040" timestamp="1590585160856" />
     <state x="687" y="332" key="FileChooserDialogImpl/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590586470192" />
-    <state width="1877" height="231" key="GridCell.Tab.0.bottom" timestamp="1590616777896">
+    <state width="1877" height="231" key="GridCell.Tab.0.bottom" timestamp="1590616790614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590616777896" />
-    <state width="1877" height="231" key="GridCell.Tab.0.center" timestamp="1590616777895">
+    <state width="1877" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590616790614" />
+    <state width="1877" height="231" key="GridCell.Tab.0.center" timestamp="1590616790614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590616777895" />
-    <state width="1877" height="231" key="GridCell.Tab.0.left" timestamp="1590616777895">
+    <state width="1877" height="231" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590616790614" />
+    <state width="1877" height="231" key="GridCell.Tab.0.left" timestamp="1590616790614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590616777895" />
-    <state width="1877" height="231" key="GridCell.Tab.0.right" timestamp="1590616777895">
+    <state width="1877" height="231" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590616790614" />
+    <state width="1877" height="231" key="GridCell.Tab.0.right" timestamp="1590616790614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590616777895" />
+    <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590616790614" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1590586477242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -154,9 +149,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590592388637" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590591236756">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590618786899">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590591236756" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590618786899" />
   </component>
 </project>
