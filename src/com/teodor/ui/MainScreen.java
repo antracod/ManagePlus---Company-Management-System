@@ -3,29 +3,37 @@ package com.teodor.ui;
 import com.jfoenix.controls.JFXButton;
 import com.sun.javafx.logging.Logger;
 import com.sun.javafx.logging.PlatformLogger;
+import com.teodor.models.Payment;
+import com.teodor.services.FinancialService;
 import javafx.application.Application;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.Spinner;
-import javafx.scene.control.SpinnerValueFactory;
+import javafx.scene.control.*;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.net.URL;
+import java.sql.SQLException;
+import java.util.Collection;
+import java.util.ResourceBundle;
 import java.util.concurrent.CountDownLatch;
 
-public class MainScreen extends Application {
+public class MainScreen extends Application implements Initializable {
 
     public static final CountDownLatch latch = new CountDownLatch(1);
     public static MainScreen MainScreen = null;
     public JFXButton tableStartButton;
 
 
-
+    @FXML private JFXButton addEntryMainScreenButton;
 
     public static MainScreen waitForMainScreen() {
         try {
@@ -79,12 +87,28 @@ public class MainScreen extends Application {
 
             }
         });
+
+
+
     }
 
     public static void main(String[] args) {
         Application.launch(args);
     }
 
+
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        addEntryMainScreenButton.setOnAction(e -> {
+            try {
+                FinancialService financialDB = new FinancialService();
+                financialDB.addEntry(new Payment(99,"Ceva Nume",234,"6.6.2020"));
+
+            } catch (SQLException throwable) {
+                throwable.printStackTrace();
+            }
+        });
+    }
 
 
 }

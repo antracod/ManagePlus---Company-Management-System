@@ -3,19 +3,22 @@ package com.teodor.tests;
 import com.teodor.models.Payment;
 import com.teodor.models.Rule;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
 public class ClassService {
-    private List<Rule> ruleList;
+    private List<Rule> ruleList = new ArrayList<Rule>();
     private Payment tmpPayment = new Payment();
 
-    public ClassService(){};
+    public ClassService(){
+
+    };
 
     public void addRules(Rule tmp)
     {
-        ruleList.add(tmp);
+        this.ruleList.add(tmp);
     }
 
     public List<Rule> getRules()

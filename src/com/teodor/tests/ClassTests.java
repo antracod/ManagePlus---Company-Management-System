@@ -19,8 +19,14 @@ public class ClassTests {
         List<Rule> testReversedRuleList = myService.getReversedSortedRules();
 
         Payment tmpPayment = new Payment(4, "Andrei" , 1000 , "20.12.2020");
+        myService.addTmpPayment(tmpPayment);
+        myService.addTmpPaymentValue(100);
+        myService.addTmpPaymentReceiver("Andrei");
+        myService.addTmpPaymentDate("12.12.2020");
 
-
+        int tmpPaymentValue = myService.getTmppaymentValue();
+        String tmpPaymentDate = myService.getTmpPaymentDate();
+        String tmpPaymentReceiver = myService.getTmpPaymentReceiver();
 
     }
 }

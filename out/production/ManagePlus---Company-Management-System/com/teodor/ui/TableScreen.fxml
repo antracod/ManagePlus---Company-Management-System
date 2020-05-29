@@ -27,7 +27,7 @@
             <Font size="17.0" />
          </font>
       </JFXButton>
-      <JFXButton layoutX="491.0" layoutY="116.0" prefHeight="38.0" prefWidth="209.0" style="-fx-background-color: #ffffff;" text="Add Entry" textFill="ROYALBLUE">
+      <JFXButton layoutX="491.0" layoutY="116.0" prefHeight="38.0" prefWidth="209.0" style="-fx-background-color: #ffffff;" text="Add Entry" textFill="ROYALBLUE" fx:id="addEntryMainScreenButton">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>

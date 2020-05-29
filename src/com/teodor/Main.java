@@ -20,26 +20,13 @@ import java.util.Vector;
 public class Main {
 
     public static void main(String[] args) {
-        /*FinancialBalance x = new FinancialBalance();
-        Payment y = new Payment(2, "20.10.2020");
-        Payment z = new Payment(3, "Teodor" , 100, "12.12.2020");
-        BonusPayment zz = new BonusPayment();
-        x.addToFinancialBalance(y);
-        x.addToFinancialBalance(zz);
-       // x.printFinancialBalance();
-        Vector<Payment> k = x.getFinancialBalance();
-       // System.out.println("Size: "+k.size());
-        try {
-            DatabaseConnection myDatabase = new DatabaseConnection();
-           // myDatabase.addTransaction(z);
-        }catch(SQLException e)
-        {
+        Payment p = new Payment(3, "Radu Teodor-George" , 15252, "12.12.2020");
+        Payment p2 = new Payment(5, "Udar Rodoet-Egroeg" , 15252, "12.12.2020");
 
-        }
-        */
+        ///TESTING CLASS OPERATIONS AND SERVICE
+        ClassTests testClassSimpleService = new ClassTests();
 
-       // ClassTests testClassSimpleService = new ClassTests();
-
+        ///TESTING CSV
         try{
             CsvTests csvTests = new CsvTests();
             csvTests.startCsvTesting();
@@ -47,12 +34,8 @@ public class Main {
 
         }
 
-        Payment p = new Payment(3, "Test Test" , 1000, "12.12.2020");
-        Payment p2 = new Payment(3, "Test2 Test2" , 1000, "12.12.2020");
-
         ///Testing Database Service
         try{
-
             FinancialService financialDB = new FinancialService();
             financialDB.addEntry(p);
             Collection<Payment> kek = financialDB.getEntry();
@@ -60,13 +43,17 @@ public class Main {
             financialDB.updateEntry(p);
             System.out.println(kek.size());
 
+            DatabaseAuditor testAuditor = new DatabaseAuditor("Auditor.txt",financialDB);
+            testAuditor.addEntry(p2);
+          //  testAuditor.deleteEntry(3);
+         //   testAuditor.deleteEntry(5);
+
         }catch(Exception e)
         {
             System.out.println(e);
         }
 
-
-
+        ///UI
         new Thread(() -> Application.launch(MainScreen.class)).start();
         MainScreen startUpTest = MainScreen.waitForMainScreen();
         startUpTest.printSomething();

@@ -60,7 +60,7 @@
             <Font name="System Bold" size="20.0" />
          </font>
       </JFXButton>
-      <JFXButton layoutX="223.0" layoutY="94.0" prefHeight="51.0" prefWidth="289.0" style="-fx-background-color: #4169e1;" text="Add Transaction" textFill="WHITE">
+      <JFXButton layoutX="223.0" layoutY="94.0" prefHeight="51.0" prefWidth="289.0" style="-fx-background-color: #4169e1;" text="Add Transaction" textFill="WHITE" fx:id="addEntryMainScreenButton">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
