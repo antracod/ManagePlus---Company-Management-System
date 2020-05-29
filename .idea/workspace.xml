@@ -20,24 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="546fe620-3fbd-4679-ac08-ce6549dbd307" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Auditor.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/teodor/DatabaseAuditor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Explicatie.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Financial.db" beforeDir="false" afterPath="$PROJECT_DIR$/Financial.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/DatabaseConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/tests/ClassService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/tests/ClassService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/tests/ClassTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/tests/ClassTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/ui/TableController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/ui/TableController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teodor/DatabaseConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teodor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teodor/tests/ClassService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/tests/ClassService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teodor/tests/ClassTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/tests/ClassTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/ui/MainScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/ui/MainScreen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ManagePlus---Company-Management-System/com/teodor/ui/stylesheet.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/teodor/ui/MainScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/ui/MainScreen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teodor/ui/MainScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/ui/MainScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teodor/ui/TableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/ui/TableController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teodor/ui/TableScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teodor/ui/TableScreen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/teodor/ui/stylesheet.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +115,7 @@
       <workItem from="1590679601672" duration="6286000" />
       <workItem from="1590686816325" duration="737000" />
       <workItem from="1590694220716" duration="6221000" />
-      <workItem from="1590704530474" duration="7426000" />
+      <workItem from="1590704530474" duration="7563000" />
     </task>
     <servers />
   </component>
@@ -167,40 +154,40 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="541" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590711085444" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590634329517">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590712957123">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590634329517" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590712957123" />
     <state x="687" y="332" key="FileChooserDialogImpl" timestamp="1590634381861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1233" y="333" key="FileChooserDialogImpl/0.0.1920.1040/-1920.1.1920.1040@-1920.1.1920.1040" timestamp="1590585160856" />
     <state x="687" y="332" key="FileChooserDialogImpl/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590634381861" />
-    <state width="1877" height="213" key="GridCell.Tab.0.bottom" timestamp="1590712847468">
+    <state width="1877" height="213" key="GridCell.Tab.0.bottom" timestamp="1590712973549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590712847468" />
-    <state width="1877" height="213" key="GridCell.Tab.0.center" timestamp="1590712847468">
+    <state width="1877" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590712973549" />
+    <state width="1877" height="213" key="GridCell.Tab.0.center" timestamp="1590712973549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590712847468" />
-    <state width="1877" height="213" key="GridCell.Tab.0.left" timestamp="1590712847468">
+    <state width="1877" height="213" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590712973549" />
+    <state width="1877" height="213" key="GridCell.Tab.0.left" timestamp="1590712973549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590712847468" />
-    <state width="1877" height="213" key="GridCell.Tab.0.right" timestamp="1590712847468">
+    <state width="1877" height="213" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590712973549" />
+    <state width="1877" height="213" key="GridCell.Tab.0.right" timestamp="1590712973549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590712847468" />
+    <state width="1877" height="213" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590712973549" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1590634385019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1459" y="166" key="SettingsEditor/0.0.1920.1040/-1920.1.1920.1040@-1920.1.1920.1040" timestamp="1590585229133" />
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590634385019" />
-    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1590694998003">
+    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1590712949787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590694998003" />
+    <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1590712949787" />
     <state x="342" y="140" key="new project wizard" timestamp="1590633215787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

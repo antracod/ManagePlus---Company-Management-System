@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="600.0" prefWidth="1024.0" styleClass="parent" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.teodor.ui.MainScreen">
+<AnchorPane prefHeight="600.0" prefWidth="1024.0" styleClass="parent" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.teodor.ui.MainScreen">
    <children>
       <AnchorPane prefHeight="600.0" prefWidth="157.0" style="-fx-background-color: #4169e1;">
          <children>
