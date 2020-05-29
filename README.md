@@ -1,6 +1,6 @@
-ManagePlus - Company Management System
+# ManagePlus - Company Management System
 
-UI Preview:
+### UI Preview:
 
 ![preview](/git1.PNG)
 ![preview](/git2.PNG)
